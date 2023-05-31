@@ -7,12 +7,12 @@ import { getFirestore } from 'firebase/firestore';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: 'AIzaSyCxkYo9JYf6iHthT3S5zzpS5lfKfxL2h-0',
-  authDomain: 'react-mp3.firebaseapp.com',
-  projectId: 'react-mp3',
-  storageBucket: 'react-mp3.appspot.com',
-  messagingSenderId: '619289518571',
-  appId: '1:619289518571:web:8189513c51bb9ef61339ae',
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
