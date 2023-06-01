@@ -23,7 +23,7 @@ https://react-mp3-mm7n.vercel.app/
 - User logged in state can be identified with the help of firebase by creating a custom hook and calling firebase's function
 
 ## Local setup
-- Clone the repo in to your system
+- `git clone https://github.com/shivamvijaywargi/react-mp3.git`
 - `cd react-mp3`
 - `pnpm i (or npm i)`
 - `pnpm dev (or npm run dev)`
