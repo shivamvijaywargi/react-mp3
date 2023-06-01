@@ -24,6 +24,6 @@ https://react-mp3-mm7n.vercel.app/
 
 ## Local setup
 - Clone the repo in to your system
-- cd react-mp3
-- pnpm i (or npm i)
-- pnpm dev (or npm run dev)
+- `cd react-mp3`
+- `pnpm i (or npm i)`
+- `pnpm dev (or npm run dev)`
